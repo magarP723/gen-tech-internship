@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/b94067af80.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>My App</title>
+  </head>
+  <body>
+    <div class="content">
+      <form>
+        <h3>Sign In</h3>
+        <input type="text" id="username" placeholder="username" required />
+        <input type="password" id="password" placeholder="password" required/>
+        <div class="captcha">
+          <label for="captcha">Enter Captcha</label>
+          <div class="preview"></div>
+          <input type="text" id="captcha-input" placeholder="Enter" required>
+          <button class="captcha-reset"><i class="fa fa-refresh" aria-hidden="true"></i></button>
+        </div>
+        <div id="#error-text"></div>
+        <div class="funBtn">
+          <input type="submit" value="Login" />
+        </div>
+        <a href="#" class="forgot" >Forgot Password ?</a>
+      </form>
+    </div>
+  </body>
+  <script src="js/login.js"></script>
+</html>
